@@ -147,11 +147,6 @@ h1 a {
     margin: 1em auto 0;
 }
 
-.highlight,
-strong {
-    color:#9991e2;
-}
-
 .terminal {
     background-color: rgba(255, 255, 255, 0.01);
     padding: 1em 2em 2em;
@@ -261,7 +256,7 @@ strong {
     height: 50vh;
     width: 50vh;
     position: absolute;
-    background-color:#c6488e;
+    background-color:#9e88e6;
     border-radius: 50%;
     top: 25vh;
     margin-left: auto;
@@ -390,20 +385,26 @@ body.dark {
     color: #f7cc63;
 }
 
+.dark .highlight,
+.dark strong {
+    color:#f580db;
+}
+
 .dark #capa {
-    background-image: linear-gradient(to bottom, #c6488e, #3f4e76);
+    background-image: linear-gradient(to bottom, #9e88e6 -157%, #4f3697);
 }
 
 .dark #sobre {
-    background-image: linear-gradient(to top, #764b7f, #3f4e76);
+    background-image: linear-gradient(to top, #9e88e6 -150%, #4f3697);
 }
 
 .dark #sobre .circle {
-    background-image: linear-gradient(to bottom, #764b7f, #3f4e76);
+    background-image: linear-gradient(to bottom, #9e88e6, #4f3697);
+    opacity: 0.2;
 }
 
 .dark #experiencia {
-    background-image: linear-gradient(to bottom, #754b7e, #3f4e76);
+    background-image: linear-gradient(to bottom, #6e56b6, #4f3697);
 }
 
 .dark #experiencia .container .timeline__wrapper .terminal:before {
@@ -412,12 +413,12 @@ body.dark {
 
 .dark #experiencia .container .timeline__wrapper:nth-child(odd),
 .dark #experiencia .container .timeline__wrapper:nth-child(even) {
-    border-color: #c6488e;
+    border-color: #9e88e6;
 }
 
 .dark #experiencia .container .timeline__wrapper:last-child {
     border-color: initial;
-    border-image-source: linear-gradient(to bottom,#c6488e,transparent 100%);
+    border-image-source: linear-gradient(to bottom,#9e88e6,transparent 100%);
     border-image-slice: 1;
 }
 
@@ -426,19 +427,19 @@ body.dark {
 }
 
 .dark #recursos {
-    background-color: #3f4d76;
+    background-color: #4f3697;
 }
 
 .dark #videos {
-    background-image: linear-gradient(to top, #764b7f, #3f4e76);
+    background-image: linear-gradient(to top, #9e88e6, #4f3697);
 }
 
 .dark #contato {
-    background-image: linear-gradient(to top, #c6488e, #754b7e);
+    background-image: linear-gradient(to top, #9e88e6, #9d87e5);
 }
 
 .dark footer {
-    background-color: #c6488e;
+    background-color: #9e88e6;
 }
 
 .dark #contato img {
@@ -464,6 +465,11 @@ body.light {
     color:#d4597a;
 }
 
+.light .highlight,
+.light strong {
+    color:#9991e2;
+}
+
 .light #capa {
     background-image: linear-gradient(to bottom, #e6e6e6, #f1f1f1);
 }
@@ -486,12 +492,12 @@ body.light {
 
 .light #experiencia .container .timeline__wrapper:nth-child(odd),
 .light #experiencia .container .timeline__wrapper:nth-child(even) {
-    border-color: #c6488e;
+    border-color: #9e88e6;
 }
 
 .light #experiencia .container .timeline__wrapper:last-child {
     border-color: initial;
-    border-image-source: linear-gradient(to bottom,#c6488e,transparent 100%);
+    border-image-source: linear-gradient(to bottom,#9e88e6,transparent 100%);
     border-image-slice: 1;
 }
 
