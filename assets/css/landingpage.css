@@ -601,7 +601,12 @@ body.light {
         font-size: 2.25rem;
     }
 
-    #sobre, #recursos, #videos, #contato, #experiencia {
+    #sobre,
+    #recursos {
+        height: 100vh;
+    }
+    
+    #videos, #contato, #experiencia {
         min-height: 100vh;
     }
 
