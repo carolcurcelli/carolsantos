@@ -14,7 +14,7 @@ body:after {
     height:100%;
     background: #ffffff;
     z-index: 20;
-    animation: load ease .5s forwards;
+    animation: load ease .55s forwards;
     opacity: 1;
 }
 
