@@ -256,7 +256,7 @@ h1 a {
     height: 50vh;
     width: 50vh;
     position: absolute;
-    background-color:#9e88e6;
+    background-color:#fa96cc;
     border-radius: 50%;
     top: 25vh;
     margin-left: auto;
@@ -391,20 +391,20 @@ body.dark {
 }
 
 .dark #capa {
-    background-image: linear-gradient(to bottom, #9e88e6 -157%, #4f3697);
+    background-image: linear-gradient(to bottom, #fa96cc -157%, #b02159);
 }
 
 .dark #sobre {
-    background-image: linear-gradient(to top, #9e88e6 -150%, #4f3697);
+    background-image: linear-gradient(to top, #fa96cc -150%, #b02159);
 }
 
 .dark #sobre .circle {
-    background-image: linear-gradient(to bottom, #9e88e6, #4f3697);
+    background-image: linear-gradient(to bottom, #fa96cc, #b02159);
     opacity: 0.2;
 }
 
 .dark #experiencia {
-    background-image: linear-gradient(to bottom, #6e56b6, #4f3697);
+    background-image: linear-gradient(to bottom, #cd4f86, #b02159);
 }
 
 .dark #experiencia .container .timeline__wrapper .terminal:before {
@@ -413,12 +413,12 @@ body.dark {
 
 .dark #experiencia .container .timeline__wrapper:nth-child(odd),
 .dark #experiencia .container .timeline__wrapper:nth-child(even) {
-    border-color: #9e88e6;
+    border-color: #fa96cc;
 }
 
 .dark #experiencia .container .timeline__wrapper:last-child {
     border-color: initial;
-    border-image-source: linear-gradient(to bottom,#9e88e6,transparent 100%);
+    border-image-source: linear-gradient(to bottom,#fa96cc,transparent 100%);
     border-image-slice: 1;
 }
 
@@ -427,19 +427,19 @@ body.dark {
 }
 
 .dark #recursos {
-    background-color: #4f3697;
+    background-color: #b02159;
 }
 
 .dark #videos {
-    background-image: linear-gradient(to top, #9e88e6, #4f3697);
+    background-image: linear-gradient(to top, #fa96cc, #b02159);
 }
 
 .dark #contato {
-    background-image: linear-gradient(to top, #9e88e6, #9d87e5);
+    background-image: linear-gradient(to bottom, #f995cb, #9d87e5);
 }
 
 .dark footer {
-    background-color: #9e88e6;
+    background-color: #9d87e4;
 }
 
 .dark #contato img {
@@ -492,12 +492,12 @@ body.light {
 
 .light #experiencia .container .timeline__wrapper:nth-child(odd),
 .light #experiencia .container .timeline__wrapper:nth-child(even) {
-    border-color: #9e88e6;
+    border-color: #fa96cc;
 }
 
 .light #experiencia .container .timeline__wrapper:last-child {
     border-color: initial;
-    border-image-source: linear-gradient(to bottom,#9e88e6,transparent 100%);
+    border-image-source: linear-gradient(to bottom,#fa96cc,transparent 100%);
     border-image-slice: 1;
 }
 
