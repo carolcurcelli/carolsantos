@@ -256,7 +256,7 @@ h1 a {
     height: 50vh;
     width: 50vh;
     position: absolute;
-    background-color:#fa96cc;
+    background-color:#5c4b63;
     border-radius: 50%;
     top: 25vh;
     margin-left: auto;
@@ -379,6 +379,7 @@ footer .container .credits {
 
 body.dark {
     color: #ffffff;
+    background-color: #2f2934;
 }
 
 .dark a {
@@ -391,20 +392,20 @@ body.dark {
 }
 
 .dark #capa {
-    background-image: linear-gradient(to bottom, #fa96cc -157%, #b02159);
+    background-image: linear-gradient(to bottom, #5c4b63 -157%, #2f2934);
 }
 
 .dark #sobre {
-    background-image: linear-gradient(to top, #fa96cc -150%, #b02159);
+    background-image: linear-gradient(to top, #5c4b63 -150%, #2f2934);
 }
 
 .dark #sobre .circle {
-    background-image: linear-gradient(to bottom, #fa96cc, #b02159);
+    background-image: linear-gradient(to bottom, #5c4b63, #2f2934);
     opacity: 0.2;
 }
 
 .dark #experiencia {
-    background-image: linear-gradient(to bottom, #cd4f86, #b02159);
+    background-image: linear-gradient(to bottom, #413747, #2f2934);
 }
 
 .dark #experiencia .container .timeline__wrapper .terminal:before {
@@ -413,12 +414,12 @@ body.dark {
 
 .dark #experiencia .container .timeline__wrapper:nth-child(odd),
 .dark #experiencia .container .timeline__wrapper:nth-child(even) {
-    border-color: #fa96cc;
+    border-color: #7a5b7d;
 }
 
 .dark #experiencia .container .timeline__wrapper:last-child {
     border-color: initial;
-    border-image-source: linear-gradient(to bottom,#fa96cc,transparent 100%);
+    border-image-source: linear-gradient(to bottom,#5c4b63,transparent 100%);
     border-image-slice: 1;
 }
 
@@ -427,19 +428,19 @@ body.dark {
 }
 
 .dark #recursos {
-    background-color: #b02159;
+    background-color: #2f2934;
 }
 
 .dark #videos {
-    background-image: linear-gradient(to top, #fa96cc, #b02159);
+    background-image: linear-gradient(to top, #5c4b63, #2f2934);
 }
 
 .dark #contato {
-    background-image: linear-gradient(to bottom, #f995cb, #9d87e5);
+    background-image: linear-gradient(to bottom, #5c4b63, #78587d);
 }
 
 .dark footer {
-    background-color: #9d87e4;
+    background-color: #78587d;
 }
 
 .dark #contato img {
@@ -458,7 +459,11 @@ body.dark {
 /* LIGHT THEME */
 
 body.light {
-    color: #272727;
+    color: #705d65;
+}
+
+.light header {
+    border-bottom: 1px solid rgb(253 236 241);
 }
 
 .light a {
@@ -470,20 +475,25 @@ body.light {
     color:#9991e2;
 }
 
+.light header,
+.light .terminal {
+    box-shadow: 0 26px 42px rgb(207 158 158 / 10%);
+}
+
 .light #capa {
-    background-image: linear-gradient(to bottom, #e6e6e6, #f1f1f1);
+    background-image: linear-gradient(to bottom, #f0d3df, #f1f1f1);
 }
 
 .light #sobre {
-    background-image: linear-gradient(to top, #d3e7f0, #f1f1f1);
+    background-image: linear-gradient(to top, #f0d3df, #f1f1f1);
 }
 
 .light #sobre .circle {
-    background-image: linear-gradient(to bottom, #d3e7f0, #f1f1f1);
+    background-image: linear-gradient(to bottom, #f0d3df, #f1f1f1);
 }
 
 .light #experiencia {
-    background-image: linear-gradient(to bottom, #d3e7f0, #f1f1f1);
+    background-image: linear-gradient(to bottom, #f0d3df, #f1f1f1);
 }
 
 .light #experiencia .container .timeline__wrapper .terminal:before {
@@ -492,12 +502,12 @@ body.light {
 
 .light #experiencia .container .timeline__wrapper:nth-child(odd),
 .light #experiencia .container .timeline__wrapper:nth-child(even) {
-    border-color: #fa96cc;
+    border-color: #ff7298;
 }
 
 .light #experiencia .container .timeline__wrapper:last-child {
     border-color: initial;
-    border-image-source: linear-gradient(to bottom,#fa96cc,transparent 100%);
+    border-image-source: linear-gradient(to bottom,#ff7298,transparent 100%);
     border-image-slice: 1;
 }
 
@@ -510,15 +520,15 @@ body.light {
 }
 
 .light #videos {
-    background-image: linear-gradient(to top, #d3e7f0, #f1f1f1);
+    background-image: linear-gradient(to top, #f0d3df, #f1f1f1);
 }
 
 .light #contato {
-    background-color: #d3e7f0;
+    background-color: #f0d3df;
 }
 
 .light footer {
-    background-image: linear-gradient(to bottom, #d3e7f0, #f1f1f1);
+    background-image: linear-gradient(to bottom, #f0d3df, #f1f1f1);
 }
 
 .light.--open .menu {
