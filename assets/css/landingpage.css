@@ -29,7 +29,7 @@ body:after {
   }
 
 
-body.--open {
+html.--open {
     overflow: hidden;
 }
 
@@ -377,9 +377,10 @@ footer .container .credits {
 
 /* DARK THEME */
 
-body.dark {
+html.dark {
     color: #ffffff;
     background-color: #2f2934;
+    color-scheme: dark;
 }
 
 .dark a {
@@ -458,7 +459,7 @@ body.dark {
 
 /* LIGHT THEME */
 
-body.light {
+html.light {
     color: #705d65;
 }
 

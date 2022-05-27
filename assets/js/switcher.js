@@ -1,6 +1,6 @@
 (function () {
     const switcher = document.querySelector('#switcher');
-    const body = document.querySelector('body');
+    const body = document.querySelector('html');
 
     switcher.addEventListener('click', function(){
         if (body.classList.contains('dark')) {
@@ -18,7 +18,7 @@
 (function () {
     const menuOpener = document.querySelector('#menuOpener');
     const menuCloser = document.querySelector('#close');
-    const body = document.querySelector('body');
+    const body = document.querySelector('html');
     const menuItem = document.querySelectorAll('.menu__item');
 
     menuOpener.addEventListener('click', function(){
