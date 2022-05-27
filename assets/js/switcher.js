@@ -1,36 +1,49 @@
 (function () {
     const switcher = document.querySelector('#switcher');
-    const body = document.querySelector('html');
+    const dom = document.querySelector('html');
 
     switcher.addEventListener('click', function(){
-        if (body.classList.contains('dark')) {
-            body.classList.add('light');
-            body.classList.remove('dark');
+        if (dom.classList.contains('dark')) {
+            dom.classList.add('light');
+            dom.classList.remove('dark');
             switcher.innerHTML = '🌛';
-        } else if (body.classList.contains('light')) {
-            body.classList.add('dark');
-            body.classList.remove('light');
+        } else if (dom.classList.contains('light')) {
+            dom.classList.add('dark');
+            dom.classList.remove('light');
             switcher.innerHTML = '🌞';
         }
     });
+
+    let date = new Date();
+    let time = date.getHours();
+
+    if(time >= 6 && time < 18) {
+        dom.classList.add('light');
+        dom.classList.remove('dark');
+        switcher.innerHTML = '🌛';
+    } else {
+        dom.classList.add('dark');
+        dom.classList.remove('light');
+        switcher.innerHTML = '🌞';
+    }
+
 })();
 
 (function () {
     const menuOpener = document.querySelector('#menuOpener');
     const menuCloser = document.querySelector('#close');
-    const body = document.querySelector('html');
+    const dom = document.querySelector('html');
     const menuItem = document.querySelectorAll('.menu__item');
 
     menuOpener.addEventListener('click', function(){
-        body.classList.add('--open');
+        dom.classList.add('--open');
     });
     menuCloser.addEventListener('click', function(){
-        body.classList.remove('--open');
+        dom.classList.remove('--open');
     });
     for (let i = 0; i < menuItem.length; i++) {
         menuItem[i].addEventListener('click', function(){
-            body.classList.remove('--open');
+            dom.classList.remove('--open');
         });
     }
-    console.log(menuItem);
 })();
