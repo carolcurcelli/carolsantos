@@ -255,6 +255,7 @@ h1 a {
 .circle {
     height: 50vh;
     width: 50vh;
+    max-width: 100%;
     position: absolute;
     background-color:#5c4b63;
     border-radius: 50%;
@@ -406,7 +407,7 @@ html.dark {
 
 .dark #sobre .circle {
     background-image: linear-gradient(to bottom, #5c4b63, #2f2934);
-    opacity: 0.2;
+    opacity: 0.7;
 }
 
 .dark #experiencia {
