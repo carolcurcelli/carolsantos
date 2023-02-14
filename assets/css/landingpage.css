@@ -623,6 +623,7 @@ html.light {
     }
     #capa p {
         max-width: initial;
+        margin-left: .3em;
     }
     #capa h2 {
         font-size: 5rem;
